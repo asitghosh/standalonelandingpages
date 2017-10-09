@@ -1631,7 +1631,6 @@ h3 {
  .both-side-border {
    border-left: 1px solid #dddddd;
    border-right: 1px solid #dddddd;
-   border-bottom: 1px solid #dddddd;
    padding-left: 14px !important;
    padding-right: 14px !important;
  }
@@ -1650,7 +1649,6 @@ h3 {
    height: 60px;
    line-height: 60px;
    display: block;
-   border-bottom: 1px solid #dddddd;
  }
    .header-links:hover {
      color: #fff;
