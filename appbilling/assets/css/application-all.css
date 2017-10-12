@@ -1784,3 +1784,97 @@ h3 {
     font-size: 12px;
   }
  }
+
+html,body
+{
+  margin: 0;
+  padding: 0;
+}
+
+h3
+{
+    font: 1.3em / 1.4em "AauxNext-Medium-Web", Arial, Helvetica, sans-serif;
+    margin: 1em 0 0.2em 0;
+    color: #3f3f3f;
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+
+.main-content
+{
+  max-width: 62.5em;
+  margin: auto;
+  font-family: "AauxNext-Regular-Web",Arial, Avenir, Myriad;
+
+}
+
+.page-wrapper
+{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.content
+{
+    background-color: #f5f5f5;
+    height: 170px;
+    border: solid 1px #cccccc;
+    width: 32.8%;
+    margin-bottom: 5px;
+}
+
+.content:hover
+{
+    border-color: #ddd;
+    box-shadow: 0 0 15px #eee;
+    background: #f8f8f8;
+
+}
+
+.content-img
+{
+    margin: auto;
+    width: 80px;
+    display: flex;
+    padding-top: 10px;
+}
+
+.content-links
+{
+    font-size: 22px;
+    color: #2baac9;
+    text-decoration: none;
+    display: flex;
+    padding-top: 15px;
+    justify-content: center;
+    font-weight: normal;
+}
+
+.content-links:hover
+{
+    color: #80cddf;
+}
+
+@media only screen and (max-width: 1279px)
+{
+  .content
+  {
+     width: 49.6%;
+  }
+
+  .main-content
+  {
+     padding: 10px;
+  }
+}
+
+@media only screen and (max-width: 767px)
+{
+  .content
+  {
+     width: 100%;
+  }
+}
